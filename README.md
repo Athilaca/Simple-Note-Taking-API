@@ -5,19 +5,16 @@ This is a Django-based API for note-taking.
 ## Setup Instructions
 
 1. Clone the repository.
-bash
     git clone <repository_url>
 
 
 2. Create a virtual environment and activate it.
 
-bash
     python -m venv envname
     source envname/bin/activate  # On Windows use `envname\Scripts\activate`
 
 3. Install dependencies:
     
-bash
     pip install -r requirements.txt
 
 4. Set up the PostgreSQL database and update settings.py.
@@ -37,13 +34,11 @@ bash
 
 5. Run migrations:
     
-bash
     python manage.py makemigrations
     python manage.py migrate
 
 6. Run the development server:
     
-bash
     python manage.py runserver
 
 
