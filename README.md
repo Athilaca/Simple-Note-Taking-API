@@ -49,3 +49,9 @@ This is a Django-based API for note-taking.
 - GET /api/notes/<id>/retrieve/: Fetch a note by ID.
 - GET /api/notes/?title=<substring>: Query notes by title substring.
 - PUT /api/notes/<id>/update/: Update a note.
+
+## Testing
+
+7. Run the test suite.
+   
+    python manage.py test
